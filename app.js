@@ -12,7 +12,7 @@ var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
 
 //MONGO/Mongoose
-mongoose.connect(process.env.MONGOLAB_URI);
+mongoose.connect(process.env.MONGODB_URI);
 
 //EXPRESS
 
